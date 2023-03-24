@@ -7,7 +7,7 @@
 <title>Serviços</title>
 </head>
 <body>
-    <form action="" method="post">
+    <form action="/projeto_web/cadastraServico?id=${id}" method="post">
         <ul>
             <li>
                 <label for="descricao">Descrição:</label>
@@ -16,12 +16,6 @@
             <li>
                 <label for="preco">Preço:</label>
                 <input id="preco" name="preco" type="text">
-            </li>
-            <li>
-                <p>hotelId</p>
-            </li>
-            <li>
-                <p>reservaId</p>
             </li>
         </ul>
         <input type="submit" value="salvar">
